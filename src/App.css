@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+#todo-id {
+  width: 30rem;
+  max-width: 80%;
+  margin: 3rem auto;
+  padding: 2rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  border-style: dashed;
+  border-color: gray;
+  background: black;
+}
+
+.inputContent{
+  display: flex;
+    gap: 0.5rem
+}
+span{
+  color: #fff;
+}
+.listDiv {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.icon {
+  float: right;
+  cursor: pointer;
+}
+.Card {
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  background-color: white;
+}
+
+.form-control {
+  margin: 0.5rem 0;
+}
+
+.form-control input {
+  display: block;
+  width: 80%;
+  border: 1px solid #ccc;
+  font: inherit;
+  line-height: 1.5rem;
+  padding: 9px 1.25rem;
+  border-radius: 5px;
+}
+
+.form-control input:focus {
+  outline: none;
+  background: #ece7ea;
+  border-color: #1d85b0;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  padding: 10px;
+  background: #1d85b0;
+  color: aliceblue;
+  font-weight: 700;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.heading {
+  color: #fff;
+}
+p {
+  cursor: pointer;
+}
+li {
+  list-style-type: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
